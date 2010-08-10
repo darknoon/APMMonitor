@@ -11,6 +11,7 @@
 		256AC3DA0F4B6AC300CF3369 /* APMMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* APMMonitorAppDelegate.m */; };
 		493154371210D80300B5E44A /* DNAPMMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 493154361210D80300B5E44A /* DNAPMMonitor.m */; };
 		493154BB121106C700B5E44A /* NSEvent+Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 493154BA121106C700B5E44A /* NSEvent+Timestamp.m */; };
+		49766BE712111F1000EDF7DF /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49766BE612111F1000EDF7DF /* ApplicationServices.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -31,6 +32,7 @@
 		493154361210D80300B5E44A /* DNAPMMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAPMMonitor.m; sourceTree = "<group>"; };
 		493154B9121106C700B5E44A /* NSEvent+Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEvent+Timestamp.h"; sourceTree = "<group>"; };
 		493154BA121106C700B5E44A /* NSEvent+Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEvent+Timestamp.m"; sourceTree = "<group>"; };
+		49766BE612111F1000EDF7DF /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* APMMonitor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "APMMonitor-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* APMMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				49766BE712111F1000EDF7DF /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49766BE612111F1000EDF7DF /* ApplicationServices.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
